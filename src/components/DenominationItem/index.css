@@ -1,0 +1,18 @@
+/* Write your CSS here */
+.button {
+  background-color: #585076;
+  border-radius: 5px;
+  width: 130px;
+  height: 35px;
+  margin: 5px;
+  border-width: 1px #c4c4c4 solid;
+  cursor: pointer;
+  outline: none;
+}
+
+.button-list-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,66 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 50px;
+  margin-top: 40px;
+  height: 85vh;
+}
+
+.balance-container {
+  background-color: #150b3e;
+  border-radius: 20px;
+  padding: 35px;
+  width: 450px;
+}
+
+.name-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.initial-icon {
+  background-color: #c7d2fe;
+  color: #7c3aed;
+  padding-left: 25px;
+  padding-top: 20px;
+  padding-right: 35px;
+  padding-bottom: 40px;
+  border-radius: 55px;
+  height: 40px;
+  width: 55px;
+  margin-right: 20px;
+}
+
+.sub-heading {
+  color: #585076;
+  font-weight: 500;
+}
+
+.main-heading {
+  color: #d4d2db;
+  font-weight: 500;
+}
+
+.rupee-text {
+  align-self: flex-end;
+  display: flex;
+  color: #585076;
+}
+
+.balance-display-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: stretch;
+}
+
+.withdraw-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
